@@ -261,7 +261,7 @@ main hr {
     border: 0;
 }
 
-.avatar:hover{
+.avatar:hover, .card>svg:hover{
     transform: scale(1.05);
     transition: transform 0.2s;
 }
