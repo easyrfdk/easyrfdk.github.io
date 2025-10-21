@@ -1,99 +1,108 @@
 :root {
-  --brand-logo-orange: rgba(255, 137, 51, 1);
-  --UI-color-00-neutral: rgba(251, 251, 251, 1);
-  --UI-color-10-neutral: rgba(245, 245, 245, 1);
-  --UI-color-20-neutral: rgba(235, 235, 235, 1);
-  --UI-color-30-neutral: rgba(209, 209, 209, 1);
-  --UI-color-40-neutral: rgba(163, 163, 163, 1);
-  --UI-color-60-neutral: rgba(118, 118, 118, 1);
-  --UI-color-80-neutral: rgba(72, 72, 72, 1);
-  --UI-color-success-green: rgba(22, 163, 74, 1);
-  --UI-color-success-green-10: rgba(22, 163, 74, 0.1);
-  --UI-color-success-green-20: rgba(22, 163, 74, 0.2);
-  --UI-color-warning-yellow: rgba(250, 204, 21, 1);
-  --UI-color-warning-yellow-10: rgba(250, 204, 21, 0.1);
-  --UI-color-warning-yellow-70: rgba(250, 204, 21, 0.7);
-  --UI-color-warning-yellow-90: rgba(250, 204, 21, 0.9);
-  --UI-color-error-red: rgba(220, 38, 38, 1);
-  --UI-color-error-red-10: rgba(220, 38, 38, 0.1);
-  --UI-color-error-red-70: rgba(220, 38, 38, 0.7);
-  --UI-color-error-red-90: rgba(220, 38, 38, 0.9);
-  --brand-product-primary-white: rgba(255, 255, 255, 1);
-  --brand-product-primary-brand-blue: rgba(8, 31, 61, 1);
-  --brand-product-primary-brand-CTA-active-blue: rgba(0, 118, 204, 1);
-  --brand-product-primary-brand-secondary-brand-CTA-shade-20: rgba(
-    0,
-    94,
-    163,
-    1
-  );
-  --brand-product-primary-brand-secondary-brand-CTA-shade-40: rgba(
-    0,
-    71,
-    122,
-    1
-  );
-  --brand-product-primary-brand-secondary-brand-CTA-shade-60: rgba(
-    0,
-    47,
-    82,
-    1
-  );
-  --brand-product-primary-brand-secondary-brand-CTA-tint-30: rgba(
-    77,
-    159,
-    219,
-    1
-  );
-  --brand-product-primary-brand-secondary-brand-CTA-tint-60: rgba(
-    153,
-    200,
-    235,
-    1
-  );
-  --brand-product-primary-brand-secondary-brand-CTA-tint-90: rgba(
-    230,
-    241,
-    250,
-    1
-  );
-  --brand-product-primary-brand-secondary-brand-shade-20: rgba(6, 25, 49, 1);
-  --brand-product-primary-brand-secondary-brand-shade-40: rgba(5, 19, 37, 1);
-  --brand-product-primary-brand-secondary-brand-shade-60: rgba(3, 12, 24, 1);
-  --brand-product-primary-brand-secondary-brand-tint-20: rgba(57, 76, 100, 1);
-  --brand-product-primary-brand-secondary-brand-tint-40: rgba(107, 121, 139, 1);
-  --brand-product-primary-brand-secondary-brand-tint-60: rgba(156, 165, 177, 1);
-  --brand-product-primary-black: rgba(10, 10, 10, 1);
-  --brand-product-primary-brand-blue-gray: rgba(105, 123, 154, 1);
+    --brand-logo-orange: rgba(255, 137, 51, 1);
+    --UI-color-00-neutral: rgba(251, 251, 251, 1);
+    --UI-color-10-neutral: rgba(245, 245, 245, 1);
+    --UI-color-20-neutral: rgba(235, 235, 235, 1);
+    --UI-color-30-neutral: rgba(209, 209, 209, 1);
+    --UI-color-40-neutral: rgba(163, 163, 163, 1);
+    --UI-color-60-neutral: rgba(118, 118, 118, 1);
+    --UI-color-80-neutral: rgba(72, 72, 72, 1);
+    --UI-color-success-green: rgba(22, 163, 74, 1);
+    --UI-color-success-green-10: rgba(22, 163, 74, 0.1);
+    --UI-color-success-green-20: rgba(22, 163, 74, 0.2);
+    --UI-color-warning-yellow: rgba(250, 204, 21, 1);
+    --UI-color-warning-yellow-10: rgba(250, 204, 21, 0.1);
+    --UI-color-warning-yellow-70: rgba(250, 204, 21, 0.7);
+    --UI-color-warning-yellow-90: rgba(250, 204, 21, 0.9);
+    --UI-color-error-red: rgba(220, 38, 38, 1);
+    --UI-color-error-red-10: rgba(220, 38, 38, 0.1);
+    --UI-color-error-red-70: rgba(220, 38, 38, 0.7);
+    --UI-color-error-red-90: rgba(220, 38, 38, 0.9);
+    --brand-product-primary-white: rgba(255, 255, 255, 1);
+    --brand-product-primary-brand-blue: rgba(8, 31, 61, 1);
+    --brand-product-primary-brand-CTA-active-blue: rgba(0, 118, 204, 1);
+    --brand-product-primary-brand-secondary-brand-CTA-shade-20: rgba(0,
+            94,
+            163,
+            1);
+    --brand-product-primary-brand-secondary-brand-CTA-shade-40: rgba(0,
+            71,
+            122,
+            1);
+    --brand-product-primary-brand-secondary-brand-CTA-shade-60: rgba(0,
+            47,
+            82,
+            1);
+    --brand-product-primary-brand-secondary-brand-CTA-tint-30: rgba(77,
+            159,
+            219,
+            1);
+    --brand-product-primary-brand-secondary-brand-CTA-tint-60: rgba(153,
+            200,
+            235,
+            1);
+    --brand-product-primary-brand-secondary-brand-CTA-tint-90: rgba(230,
+            241,
+            250,
+            1);
+    --brand-product-primary-brand-secondary-brand-shade-20: rgba(6, 25, 49, 1);
+    --brand-product-primary-brand-secondary-brand-shade-40: rgba(5, 19, 37, 1);
+    --brand-product-primary-brand-secondary-brand-shade-60: rgba(3, 12, 24, 1);
+    --brand-product-primary-brand-secondary-brand-tint-20: rgba(57, 76, 100, 1);
+    --brand-product-primary-brand-secondary-brand-tint-40: rgba(107, 121, 139, 1);
+    --brand-product-primary-brand-secondary-brand-tint-60: rgba(156, 165, 177, 1);
+    --brand-product-primary-black: rgba(10, 10, 10, 1);
+    --brand-product-primary-brand-blue-gray: rgba(105, 123, 154, 1);
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     font-size: 8px;
 }
 
-h1, h2 {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
     padding: 0;
 }
 
-h3, h4, h5, h6, p {
-    margin-top: 1em;
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 0.5em;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
 }
 
 p {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
     line-height: 132%;
-    text-align: left;;
+    text-align: left;
+}
+
+h1+p:not(:last-child) {
+    margin-bottom: 4rem;
 }
 
 body {
@@ -125,47 +134,50 @@ header {
     padding: 4rem;
     justify-content: space-between;
     background-color: color-mix(
-    in srgb,
-    var(--brand-product-primary-brand-blue) 80%,
-    transparent
-  );
+        in srgb,
+        var(--brand-product-primary-brand-blue) 80%,
+        transparent
+    );
     -webkit-backdrop-filter: blur(7px);
     backdrop-filter: blur(7px);
     font-size: 2rem;
     color: var(--UI-color-00-neutral);
     gap: 8rem;
+    z-index: 1000;
 }
 
 nav {
     overflow-x: scroll;
     overflow-y: hidden;
-    scrollbar-width: none;  /* Firefox */
-    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    /* Firefox */
+    scrollbar-width: none;
+    /* Internet Explorer 10+ */
+    -ms-overflow-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 4rem;
-
     white-space: nowrap;
 }
 
 nav::-webkit-scrollbar {
-    display: none; /* Safari and Chrome */
-}
-
-nav > .fade-overlay {
+    /* Safari and Chrome */
     display: none;
-  position: absolute;
-  top: 0;
-  right: 4rem;
-  width: 8rem;
-  height: 100%;
-  background: linear-gradient(to right, transparent, var(--brand-product-primary-brand-blue));
-  pointer-events: none; /* Allow scrolling underneath */
-  z-index: 1;
 }
 
-nav > .fade-overlay.show {
+nav>.fade-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 4rem;
+    width: 8rem;
+    height: 100%;
+    background: linear-gradient(to right, transparent, var(--brand-product-primary-brand-blue));
+    pointer-events: none;
+    z-index: 1;
+}
+
+nav>.fade-overlay.show {
     display: block;
 }
 
@@ -199,7 +211,22 @@ header .brand {
 main .logo {
     max-height: 50rem;
     align-items: center;
+    animation: fadeIn ease-in forwards 2s;
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
 
 section {
     display: flex;
@@ -233,19 +260,20 @@ main hr {
     column-gap: 4rem;
 }
 
-.cards-wide {
-    display: grid;
+.cards.wide {
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-    row-gap: 8rem;
-    column-gap: 4rem;
+    column-gap: 8rem;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    gap: 0rem;
+    gap: 4rem;
+}
+
+.cards.wide .card {
+    text-align: left;
 }
 
 .card img {
@@ -261,7 +289,8 @@ main hr {
     border: 0;
 }
 
-.avatar:hover, .card>svg:hover{
+.avatar:hover,
+.card>svg:hover {
     transform: scale(1.05);
     transition: transform 0.2s;
 }
