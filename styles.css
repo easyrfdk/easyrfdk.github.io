@@ -187,7 +187,6 @@ main {
     max-width: 120rem;
     font-size: 1.75rem;
     padding: 4rem;
-    overflow-y: scroll;
     row-gap: 8rem;
 }
 
