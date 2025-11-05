@@ -101,6 +101,13 @@ p {
     text-align: left;
 }
 
+.smaller {
+    font-size: 0.75em;
+    font-weight: 100;
+    color: var(--brand-product-primary-brand-CTA-active-blue);
+    margin-left: 1em;
+}
+
 h1+p:not(:last-child) {
     margin-bottom: 4rem;
 }
@@ -279,6 +286,11 @@ main hr {
     max-width: 100%;
     object-fit: contain;
     display: block;
+}
+
+.card span {
+    width: 100%;
+    text-align: left;
 }
 
 .avatar {
