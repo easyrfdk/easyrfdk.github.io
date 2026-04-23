@@ -216,6 +216,8 @@ main {
 .logo {
   fill: var(--brand-product-primary-white);
   aspect-ratio: 187.59 / 224.2;
+  display: grid;
+  place-content: center;
 }
 
 header .logo {
@@ -232,7 +234,6 @@ header .brand {
 
 main .logo {
   max-height: 50rem;
-  align-items: center;
   animation: fadeIn ease-in forwards 1s;
 }
 
